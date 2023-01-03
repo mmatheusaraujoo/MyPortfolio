@@ -1,0 +1,23 @@
+@import url(/styles/navbar.css);
+@import url(/styles/profile.css);
+@import url(/styles/brief.css);
+@import url(/styles/skills.css);
+@import url(/styles/contact.css);
+
+:root {
+    --font-primary: #F0E3CA;
+    --font-secondary: #7890AB;
+    --font-title: #0055AA;
+    --background-primary: #1B1A17;
+    --background-secondary: #1F1E1B;
+}
+
+body{
+    background-color: var(--background-primary);
+    color: var(--font-primary);
+    font-family: 'Roboto Mono', monospace; 
+    font-size: 16px;
+    font-weight: 400;         
+    overflow-x: hidden;     
+    scroll-behavior: smooth;                      
+}
