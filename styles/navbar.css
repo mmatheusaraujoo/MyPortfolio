@@ -1,4 +1,4 @@
-.navbar--container{
+.navbar__container{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -15,13 +15,13 @@
     border-bottom: 2px solid var(--font-primary);
 }
 
-.navbar--title{
+.navbar__title{
     font-size: 1.5rem;
     cursor: default;
 }
 
 
-.navbar--list{
+.navbar__list{
     position: absolute;
     width: 100vw;
     padding: 30px;
@@ -38,17 +38,17 @@
     border-bottom: 2px solid var(--font-primary);
 }
 
-.navbar--list__active{
+.navbar__list--active{
     display: flex;
 }
 
-.navbar--links__item{
+.navbar__links--item{
     font-size: 0.8rem;
     padding: 10px;
     transition: 1s;
 }
 
-.navbar--button:hover{
+.navbar__button:hover{
     cursor: pointer;
 }
 
@@ -65,15 +65,15 @@ a:hover, a:active{
 
 @media screen and (min-width: 768px){
 
-    .navbar--container{
+    .navbar__container{
         padding: 2.5vw;
     }
 
-    .navbar--button{
+    .navbar__button{
         display: none;
     }
     
-    .navbar--list{
+    .navbar__list{
         position: static;
         width: auto;
         height: auto;
@@ -100,11 +100,11 @@ a:hover, a:active{
 
 @media screen and (min-width: 768px){
 
-    .navbar--button{
+    .navbar__button{
         display: none;
     }
     
-    .navbar--list{
+    .navbar__list{
         position: static;
         width: auto;
         height: auto;
