@@ -1,0 +1,93 @@
+.projects__container{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 5% 5%;
+    gap: 5em;
+}
+
+.projects__title{
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: var(--font-title);
+}
+
+.projects__list{
+    display: flex;
+    flex-flow: column;
+    gap: 1em;
+}
+
+.project__card{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    padding: 1.2em;
+
+    background: var(--background-secondary);
+}
+
+.card__title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color:var(--font-secondary);
+    margin-bottom: 15px;
+}
+
+.card__tecnologies{
+    font-size: 0.8rem;
+}
+
+.card__line{
+    width: 75%;
+    margin: 0.8rem 0;
+    border-bottom: 1px solid var(--font-title);
+}
+
+.card__description{
+    width: 80%;
+    font-size: .9rem;
+}
+
+.card__button{
+    background: var(--button);
+    padding: 16px 24px;
+    border-radius: 10px;
+    margin: 1em 0;
+
+    transition: 1s;
+
+    cursor: pointer;
+}
+
+.card__button:hover{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: var(--font-secondary);
+    transition: 1s;
+}
+
+
+@media screen and (min-width: 480px){
+
+    .projects__container{
+        padding: 5em  0;
+    }
+
+    .projects__list{
+        width: 100%;
+
+        justify-content: center;
+        flex-flow: row;
+        flex-wrap: wrap;
+        gap: 3rem;
+
+        padding: 0 24px;
+    }
+    
+    .project__card{
+        width: 300px;
+        box-sizing: border-box;
+    }
+    
+}

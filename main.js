@@ -27,7 +27,6 @@ function onInit(){
     document.querySelector('.navbar__button').addEventListener('click', toggleMenu);
     
     document.querySelectorAll('.navbar__links--item').forEach(e=>{
-        console.log(e);
         e.addEventListener('click', function(){toggleMenu()});
     });
 
